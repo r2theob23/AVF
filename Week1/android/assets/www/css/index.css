@@ -113,21 +113,3 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
-
-#nativeButton{
-	margin-bottom: 20px;
-}
-
-#apiButton{
-	margin-bottom: 20px;
-}
-
-img{
-	padding-top: 3px;
-}
-
-#buttons{
-	margin-top: 40px;
-}
-
-
