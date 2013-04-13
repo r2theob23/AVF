@@ -1,0 +1,33 @@
+body {
+background-image: url(../img/cool.jpg);
+background-repeat: no-repeat;
+background-color: #000;
+}
+
+#nativeButton{
+	margin-bottom: 20px;
+}
+
+#apiButton{
+	margin-bottom: 20px;
+}
+
+img{
+	padding-top: 3px;
+}
+
+#buttons{
+	margin-top: 40px;
+}
+
+#mashButton{
+	margin-bottom: 20px;
+}
+
+header {
+	margin-bottom: 20px;
+}
+
+#researchButton{
+	margin-bottom: 20px;
+}
