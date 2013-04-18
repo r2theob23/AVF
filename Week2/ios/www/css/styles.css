@@ -35,3 +35,21 @@ header {
 #twitter{
 	margin-bottom: 20px;
 }
+
+#heading{
+	font-size: xx-large;
+}
+
+#tweets{
+	list-style: none;
+	font-size: large
+}
+
+em{
+	display: block;
+	font-size: small
+}
+
+#tweets li p img{
+	display: inline-table
+}
