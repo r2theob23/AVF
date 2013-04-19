@@ -1,8 +1,3 @@
-body {
-background-image: url(../img/cool.jpg);
-background-repeat: no-repeat;
-background-color: #000;
-}
 
 #nativeButton{
 	margin-bottom: 20px;
@@ -51,5 +46,11 @@ em{
 }
 
 #tweets li p img{
-	display: inline-table
+	display: inline-table;
 }
+
+
+
+
+
+
