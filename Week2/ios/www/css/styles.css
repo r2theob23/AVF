@@ -38,6 +38,7 @@ header {
 #tweets{
 	list-style: none;
 	font-size: large
+	
 }
 
 em{
@@ -49,8 +50,19 @@ em{
 	display: inline-table;
 }
 
+#googlePage{
+	height: 100%;
+	margin: 0;
+}
 
+#maps{
+	height: 100%;
+	margin: 0;
+}
 
+#tweets li p:nth-child(1){
+	font-family: fantasy: 
+}
 
 
 

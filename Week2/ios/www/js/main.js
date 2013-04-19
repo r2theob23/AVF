@@ -5,10 +5,11 @@
 
 $(function(){
 	
-	$.getJSON("http://search.twitter.com/search.json?q=boston%20bombings&rrp=50&result_type=resent", 
+	$.getJSON("http://search.twitter.com/search.json?q=boston%20bombings&rpp=5&include_entities=true&result_type=recent&callback=?", 
 		function(data){
 			console.log(data)
-			$("#heading").html("<p>Recent Tweets Regarding Tragedy in Boston</p>")
+			
+$("#heading").html("<p>Recent Tweets Regarding Tragedy in Boston</p>")
 			for(i=0, j=data.results.length; i<j; i++){
 				$("#tweets")
 					.append("<li>" + 
@@ -19,6 +20,7 @@ $(function(){
 				}
 		});
 });
+
 
 $("#googlePage").on("pageinit", function(){
 	var mapOptions = {
