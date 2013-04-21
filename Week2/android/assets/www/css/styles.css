@@ -43,26 +43,28 @@ header {
 
 em{
 	display: block;
-	font-size: small
+	font-size: small;
+	
 }
 
 #tweets li p img{
 	display: inline-table;
 }
 
-#googlePage{
+section#googlePage.ui-page.ui-body-c.ui-page-footer-fixed.ui-page-active {
+
 	height: 100%;
-	margin: 0;
+	margin: 0%;
+		
 }
 
-#maps{
+#map{
 	height: 100%;
-	margin: 0;
+	margin: 0%;
 }
 
-#tweets li p:nth-child(1){
-	font-family: fantasy: 
-}
+
+
 
 
 
