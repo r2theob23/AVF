@@ -1,0 +1,70 @@
+
+#nativeButton{
+	margin-bottom: 20px;
+}
+
+#apiButton{
+	margin-bottom: 20px;
+}
+
+img{
+	padding-top: 3px;
+}
+
+#buttons{
+	margin-top: 40px;
+}
+
+#mashButton{
+	margin-bottom: 20px;
+}
+
+header {
+	margin-bottom: 20px;
+}
+
+#researchButton{
+	margin-bottom: 20px;
+}
+
+#twitter{
+	margin-bottom: 20px;
+}
+
+#heading{
+	font-size: xx-large;
+}
+
+#tweets{
+	list-style: none;
+	font-size: large
+	
+}
+
+em{
+	display: block;
+	font-size: small;
+	
+}
+
+#tweets li p img{
+	display: inline-table;
+}
+
+section#googlePage.ui-page.ui-body-c.ui-page-footer-fixed.ui-page-active {
+
+	height: 100%;
+	margin: 0%;
+		
+}
+
+#map{
+	height: 100%;
+	margin: 0%;
+}
+
+
+
+
+
+
