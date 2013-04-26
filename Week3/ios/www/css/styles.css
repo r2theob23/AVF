@@ -7,6 +7,26 @@
 	margin-bottom: 20px;
 }
 
+#connectionButton{
+	margin-bottom: 20px;
+}
+
+#deviceButton{
+	margin-bottom: 20px;
+}
+
+#locationButton{
+	margin-bottom: 20px;
+}
+
+#week2{
+	margin-bottom: 20px
+}
+
+#week3{
+	margin-bottom: 20px
+}
+
 img{
 	padding-top: 3px;
 }
@@ -20,10 +40,6 @@ img{
 }
 
 header {
-	margin-bottom: 20px;
-}
-
-#researchButton{
 	margin-bottom: 20px;
 }
 
@@ -63,6 +79,18 @@ section#googlePage.ui-page.ui-body-c.ui-page-footer-fixed.ui-page-active {
 	margin: 0%;
 }
 
+#takePic{
+	margin-bottom: 20px
+}
+
+.pic{
+	margin-top: 50px;
+	visibility: visible;
+	display: !important;
+	height: 300;
+	width: 150;
+	
+}
 
 
 

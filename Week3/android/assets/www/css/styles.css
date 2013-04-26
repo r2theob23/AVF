@@ -7,6 +7,19 @@
 	margin-bottom: 20px;
 }
 
+#connectionButton{
+	margin-bottom: 20px;
+}
+
+#deviceButton{
+	margin-bottom: 20px;
+}
+
+#locationButton{
+	margin-bottom: 20px;
+}
+
+
 img{
 	padding-top: 3px;
 }
@@ -20,10 +33,6 @@ img{
 }
 
 header {
-	margin-bottom: 20px;
-}
-
-#researchButton{
 	margin-bottom: 20px;
 }
 
