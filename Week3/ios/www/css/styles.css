@@ -79,20 +79,10 @@ section#googlePage.ui-page.ui-body-c.ui-page-footer-fixed.ui-page-active {
 	margin: 0%;
 }
 
-#takePic{
-	margin-bottom: 20px
+@media screen and (max-width: 480px) { #twitterPage div.ui-content{
+ display: block;
+ width: 300px;
+ margin: 10px 50px;
 }
-
-.pic{
-	margin-top: 50px;
-	visibility: visible;
-	display: !important;
-	height: 300;
-	width: 150;
-	
 }
-
-
-
-
 
