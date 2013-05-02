@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+        <link rel="stylesheet" href="css/themes/AVF.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <script src="js/libs/modernizr.custom.min.js"></script>
+        <title>AVF Project</title>
+    </head>
+    
+    <body>
+    
+    <!-- Home Screen -->
+	<section data-role="page" id="home">
+
+		<header data-role="header" data-postion="fixed">
+			<h1>AVF Demo App</h1>
+		</header>
+
+		<div data-role="content">
+			
+			<header>	
+				<h1><strong>Robert Smith</strong></h1>
+				<h3>Advanced Visual Frameworks</h3>
+				<h3>Term 1304</h3>
+			</header>
+			
+			<div id="buttons">
+				
+				<ul data-role="listview">
+					<!-- Native Features button -->
+					<li id="nativeButton">
+						<a href="#nativeFeatures">
+							<img src="img/native.png"/>
+							<h3>Native Features</h3>
+						</a>
+					</li>
+					<!-- API Data button -->
+					<li id="apiButton">
+						<a href="#api">
+							<img src="img/api.jpg"/>
+							<h3>API'S</h3>
+						</a>
+					</li>
+						<!-- research button -->
+					<li id="researchButton">
+						<a href="#research">
+							<img src="img/research.png"/>
+							<h3>Research</h3>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<footer data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home" class="ui-btn-active ui-state-persist">Home</a></li>
+					<li><a href="#api" data-icon="home">API</a></li>
+					<li><a href="#nativeFeatures" data-icon="home">Native</a></li>
+				</ul>
+			</div>
+		</footer>
+
+	</section>
+	<!-- End Home Screen-->
+    <!-- Start Native Features Sceen -->
+    <section data-role="page" id="nativeFeatures">
+
+		<header data-role="header" data-postion="fixed">
+			<h1>AVF Demo App</h1>
+		</header>
+
+		<div data-role="content">
+			
+			<div>
+				
+				<ul data-role="listview">
+					<!-- Native Features 2 -->
+					<li id="deviceButton">
+						<a href="#device">
+							<img src="img/device.png"/>
+							<h3>Device Information</h3>
+						</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+
+		<footer data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home">Home</a></li>
+					<li><a href="#api" data-icon="home">API</a></li>
+					<li><a href="#nativeFeatures" data-icon="home" class="ui-btn-active ui-state-persist">Native</a></li>
+				</ul>
+			</div>
+		</footer>
+
+	</section>
+	<!-- End Native Features Screen -->
+	<!-- Start API Data Screen -->
+	<section data-role="page" id="api">
+
+		<header data-role="header" data-postion="fixed">
+			<h1>AVF Demo App</h1>
+		</header>
+
+		<div data-role="content">
+			
+			<div>
+				
+				<ul data-role="listview" >
+					<!-- Twitter -->
+					<li id="twitter">
+						<a href="#twitterPage">
+							<img src="img/twitter.png"/>
+							<h3>Twitter</h3>
+						</a>
+					</li>
+					<!-- Google + -->
+					<li id="google">
+						<a href="#googlePage">
+							<img src="img/google.jpg"/>
+							<h3>Google Maps</h3>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<footer data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home">Home</a></li>
+					<li><a href="#api" data-icon="home" class="ui-btn-active ui-state-persist">API</a></li>
+					<li><a href="#nativeFeatures" data-icon="home">Native</a></li>
+				</ul>
+			</div>
+		</footer>
+
+	</section>
+	<!-- End API Data Screen -->
+	
+	<!-- Start Twitter Page -->
+	<section data-role="page" id="twitterPage">
+
+		<header data-role="header" data-postion="fixed">
+			<h1>AVF Demo App</h1>
+		</header>
+
+		<div data-role="content">
+			
+			<header id="heading">Getting Data....</header>
+			
+			<section id="tweets"></section>
+		</div>
+		
+			
+		<footer data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home">Home</a></li>
+					<li><a href="#api" data-icon="home">API</a></li>
+					<li><a href="#nativeFeatures" data-icon="home">Native</a></li>
+				</ul>
+			</div>
+		</footer>
+
+	</section>
+	<!-- End Twitter Page-->
+	
+	<!--Start Google Maps Page-->
+	<section data-role="page" id="googlePage">
+	
+			<header data-role="header" data-postion="fixed">
+				<h1>AVF Demo App</h1>
+			</header>
+	
+			<div data-role="content" id="map"> 
+			
+					
+				
+			</div>
+				
+		
+			<footer data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home">Home</a></li>
+					<li><a href="#api" data-icon="home">API</a></li>
+					<li><a href="#nativeFeatures" data-icon="home">Native</a></li>
+				</ul>
+			</div>
+		</footer>
+	
+		</section>
+	<!-- End Google Maps Page-->
+	
+	<!-- start device page -->
+	<section data-role="page" id="device">
+
+		<header data-role="header" data-postion="fixed">
+			<h1>AVF Demo App</h1>
+		</header>
+
+		<div data-role="content">
+		
+			<section id="deviceInfo">Getting Your Device Information....</section>
+		
+		</div>	
+	
+			<footer data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home">Home</a></li>
+					<li><a href="#api" data-icon="home">API</a></li>
+					<li><a href="#nativeFeatures" data-icon="home" class="ui-btn-active ui-state-persist">Native</a></li>
+				</ul>
+			</div>
+		</footer>
+
+	</section>
+	<!-- end device page -->
+	
+	<!-- Start Research Screen -->
+	<section data-role="page" id="research">
+
+		<header data-role="header" data-postion="fixed">
+			<h1>AVF Demo App</h1>
+		</header>
+
+		<div data-role="content">
+			
+			<div>
+				
+				<ul data-role="listview">
+					<!-- Week 2 -->
+					<li id="week2">
+						<a href="#week2">
+							<img src="img/research.png"/>
+							<h3>Week Two Research</h3>
+						</a>
+					</li>
+					<!-- Week 3 -->
+					<li id="week3">
+						<a href="week3">
+							<img src="img/research.png"/>
+							<h3>Week Three Research</h3>
+						</a>
+					</li>
+					<!-- Week 4 -->
+					<li id="apiButton">
+						<a href="#api">
+							<img src="img/research.png"/>
+							<h3>Week Four Research</h3>
+						</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+
+		<footer data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home">Home</a></li>
+					<li><a href="#api" data-icon="home">API</a></li>
+					<li><a href="#nativeFeatures" data-icon="home">Native</a></li>
+				</ul>
+			</div>
+		</footer>
+
+	</section>
+	<!-- End Research Page -->
+	<!-- Start Week 2 Research -->
+	<section data-role="page" id="week2">
+
+		<header data-role="header" data-postion="fixed">
+			<h1>AVF Demo App</h1>
+		</header>
+
+		<div data-role="content">
+			
+		<div>
+		
+			<p>1. Less obvious perks of using 'live' data resources include logins and payments. How could Twitter be used in these 				two scenarios?</p>
+ 
+			<p>Being Logged in and authorized inside of your Twitter account not only makes it easier to purchase and make payments 				inside the site, but it also protects your information.</p>
+ 
+			<p>2. Visit Programmableweb.com and search for JSONP data sources. Why would we need JSONP, specifically?</p>
+ 
+			<p>JSON, and JSON-P act as a translator that transforms server-side programming languages like php into JavaScript that 				we can use in our applications.</p>
+ 
+			<p>3. Based on the JSON-P search results: what data resource(s) do you think might pair well with which types of Native 			device features?</p>
+ 
+			<p>There are a ton of examples to be said here, but since we are required to use the Twitter API this week a suitable 					example would be using your devises camera to take a picture and post it directly to your Twitter account.</p>
+ 
+			<p>4. Please describe any design and functionality intentions you may have for your Demo app components this month.</p>
+ 
+			<p>As far as design is concerned, I am doing my best to use custom styles and not rely so much on JQM, but I seem to be 			using all the precious time I have for school fiddling with CSS and not focusing on the rubric, which had gotten me in 				some trouble in past classes. That being said, I will, as always, give 100% and try to make my demo app as creative, 				pretty, and functional as possible.</p>
+ 
+			<p>5. Briefly describe some past 'lessons learned' regarding workflow as it relates to research, design, development, 					etc.</p>
+ 
+			<p>Just as stated above, the biggest lesson I have learned is to focus on the requirements of the assignment first, and 			then worry about the extras and all that good stuff. Also, I would have to say that now that I am this far into the 				program my time management skills have greatly improved.</p>
+					
+			
+		</div>
+
+		<footer data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home">Home</a></li>
+					<li><a href="#api" data-icon="home">API</a></li>
+					<li><a href="#nativeFeatures" data-icon="home">Native</a></li>
+				</ul>
+			</div>
+		</footer>
+
+	</section>
+	<!-- End Week 2 Research -->
+	<!-- Start Week 3 Research -->
+	<section data-role="page" id="week3">
+
+		<header data-role="header" data-postion="fixed">
+			<h1>AVF Demo App</h1>
+		</header>
+
+		<div data-role="content">
+			
+		<div>
+			<p>1. What are some of the ways that you could change your HTML on your Demo app to be more accessible? (Remember, you can 			use the Section tag with jQuery, for instance)</p>
+ 
+			<p>I could clean up my HTML quite a bit to make it more accessible. Making my application accessible to disabled users is 				something that I have not put much thought into before looking over the powerpoint and watching the video about JAWS 				today.The most important thing I should do is make sure I am not just using the to separate content and label the content properly.</p>
+ 
+			<p>2. Visit a video service on the web (like YouTube) and search for "Screen Reader Demo" and "Mobile Screen Reader" - what 			are some of the common frustrations (or common support mechanisms) that you see among the examples that are given - how 			could you fix them (or use them)?</p>
+			 
+			<p>After watching some demos of screen readers I think the main things that could be done better (with JAWS in particular) 			is the voice. I think with that the software would be much easier to use for the visually impaired if the voice reading to 			them was much less robotic and much more clear. </p> 
+			 
+			<p>3. Devices: Please list two devices (and some of their features) that are made specifically to support Accessibility.</p>
+			 
+			<p>With the last Mac OSX update Mountain Lion, there is the new feature voice dictation. This allows the user to press a 			key of their choosing twice, speak into the built-in mic, and the computer will type whatever you say. This works 					absolutely anywhere you are able to type. 
+					 
+			iOS devices have Siri. Siri is “personal assistant” feature that allows the user to hold the home button on an iOS device 			and say things like “weather”, “remind me to....” or other general questions and If Siri cannot tell you the answer she 			will ask you if you would like to search the web for results to your question. </p>
+			 
+			<p>4.Mobile Apps: Please list two apps (either Android or iOS, or both) that are made specifically to support 						Accessibility.</p>
+			 
+			<p>Facetime for iOS devices is an awesome application that not only lets you talk to a person face to face over the phone, 			but it also allows the deaf sign to each other.
+			 
+			Dragon Dictation is application for the deaf that allows the user to open the application while someone is speaking to them 			and it will transcribe the speech to text for the user to read. </p>
+			
+		</div>
+		
+			
+		<footer data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home">Home</a></li>
+					<li><a href="#api" data-icon="home">API</a></li>
+					<li><a href="#nativeFeatures" data-icon="home">Native</a></li>
+				</ul>
+			</div>
+		</footer>
+
+	</section>
+	<!-- End Week 3 Research -->
+	
+		<script src="cordova-2.5.0.js"></script>
+		<script src="js/libs/jquery.mobile-1.3.1.min.js"></script>
+		<script src="js/libs/jquery-1.9.1.min.js"></script>
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+   		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLTzxQFfiKnMuJx8-riW-NETUZNd-kZLU&sensor=false"></script>
+		<script src="js/main.js"></script>
+               	
+    </body>
+</html>
+
+
